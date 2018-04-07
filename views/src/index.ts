@@ -1,4 +1,10 @@
 import Vue from 'vue';
 import App from './App.vue';
 
-new Vue(App as any).$mount('main');
+import VueSocketio from 'vue-socket.io';
+
+Vue.use(VueSocketio, 'http://socketserver.com:1923');
+
+new Vue({
+    render: h => h(App as any)
+}).$mount('main');

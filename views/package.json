@@ -15,6 +15,7 @@
   "dependencies": {
     "ts-loader": "^4.1.0",
     "vue": "^2.5.16",
+    "vue-socket.io": "^2.1.1-b",
     "webpack": "^4.5.0"
   },
   "scripts": {
